@@ -1,0 +1,52 @@
+    .img-youtube {
+        height: 70px;
+        width: 150px;
+      }
+.main{
+    width: 100%;
+    background-color: aquamarine;
+    display: inline-block;
+}
+.thumbnail{
+    border-radius: 10px;
+    height: 220px;
+    width: 350px;
+}
+.img-small{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.thumbnail:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px 6px violet;
+}
+.para{
+    font-size: 10px;
+    margin: 0;
+}
+.btn-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding: 40px;
+    margin: 10px;
+}
+.highlight{
+    color: #1c87c9;
+    margin-bottom: 15px;
+}
+.highlight:hover{
+    background-color: blue;
+    color: white;
+}
